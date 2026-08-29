@@ -1,78 +1,205 @@
-# DSA Learning Journey with C++
+# DSA with C++
 
-A structured approach to mastering Data Structures and Algorithms.
+This repository is a collection of C++ practice programs focused on:
+- Pattern printing
+- Standard Template Library (STL)
+- Basic Data Structures and container usage
 
-## 📚 Learning Roadmap
+It is organized into two main sections:
+- `Patterns/` for pattern-based exercises
+- `STL/` for C++ STL container and algorithm examples
 
-### Phase 1: Fundamentals (Weeks 1-2)
-- [ ] Arrays & Vectors
-- [ ] Strings & String Manipulation
-- [ ] Time & Space Complexity Analysis
-- [ ] Sorting Basics (Bubble, Selection, Insertion)
+---
 
-### Phase 2: Basic Data Structures (Weeks 3-5)
-- [ ] Linked Lists
-- [ ] Stacks & Queues
-- [ ] Hash Tables/Maps
-- [ ] Binary Search Trees
+## Project Structure
 
-### Phase 3: Advanced Data Structures (Weeks 6-8)
-- [ ] Heaps & Priority Queues
-- [ ] Graphs & Graph Representation
-- [ ] Tries
-- [ ] Union-Find (Disjoint Set)
+```text
+DSA with C++/
+├── README.md
+├── template.cpp
+├── Patterns/
+│   ├── pattern1.cpp
+│   ├── pattern2.cpp
+│   ├── pattern3.cpp
+│   ├── pattern4.cpp
+│   ├── pattern5.cpp
+│   ├── pattern6.cpp
+│   ├── pattern7.cpp
+│   ├── pattern8.cpp
+│   ├── pattern9.cpp
+│   ├── pattern10.cpp
+│   ├── pattern11.cpp
+│   ├── pattern12.cpp
+│   ├── pattern13.cpp
+│   ├── pattern14.cpp
+│   ├── pattern15.cpp
+│   ├── pattern16.cpp
+│   ├── pattern17.cpp
+│   ├── pattern18.cpp
+│   ├── pattern19.cpp
+│   ├── pattern20.cpp
+│   ├── pattern21.cpp
+│   └── pattern22.cpp
+├── STL/
+│   ├── README.md
+│   ├── vector.cpp
+│   ├── list.cpp
+│   ├── stack.cpp
+│   ├── queue.cpp
+│   ├── deque.cpp
+│   ├── pair.cpp
+│   ├── set.cpp
+│   ├── multiset.cpp
+│   ├── map.cpp
+│   ├── multi_map.cpp
+│   ├── unordered_map.cpp
+│   ├── unorderedSet.cpp
+│   ├── priority_queue.cpp
+│   ├── inbuilt_sorting.cpp
+│   └── ...
+└── template.cpp
+```
 
-### Phase 4: Algorithms (Weeks 9-12)
-- [ ] Sorting Algorithms (Merge, Quick, Heap)
-- [ ] Searching & Binary Search
-- [ ] Dynamic Programming
-- [ ] Greedy Algorithms
+---
 
-### Phase 5: Advanced Topics (Weeks 13-16)
-- [ ] Graph Algorithms (BFS, DFS, Dijkstra, Floyd-Warshall)
-- [ ] Segment Trees
-- [ ] Advanced DP
-- [ ] Backtracking & Recursion
+## 1. Patterns Folder
 
-## 🚀 Quick Start
+The `Patterns/` folder contains C++ programs that print different pattern designs such as:
+- Square patterns
+- Triangle patterns
+- Number patterns
+- Star patterns
 
-1. Create a new problem file: `topic_name_problem.cpp`
-2. Use the template below:
+Example files:
+- `Patterns/pattern1.cpp`
+- `Patterns/pattern5.cpp`
+- `Patterns/pattern10.cpp`
+- `Patterns/pattern22.cpp`
 
+These programs are useful for practicing:
+- loops
+- nested loops
+- formatting output
+- pattern logic building
+
+### Run a pattern file
+```bash
+g++ Patterns/pattern1.cpp -o pattern1
+./pattern1
+```
+
+---
+
+## 2. STL Folder
+
+The `STL/` folder contains examples of the C++ Standard Template Library. It covers:
+- vectors
+- lists
+- stacks
+- queues
+- deques
+- pairs
+- sets and multisets
+- maps and multimaps
+- unordered maps and sets
+- priority queues
+- sorting algorithms
+
+### Common STL examples
+- `STL/vector.cpp` - dynamic arrays and vector operations
+- `STL/list.cpp` - linked list behavior using std::list
+- `STL/stack.cpp` - stack operations
+- `STL/queue.cpp` - queue operations
+- `STL/deque.cpp` - deque usage
+- `STL/pair.cpp` - pair handling
+- `STL/set.cpp` - ordered set
+- `STL/multiset.cpp` - multiset
+- `STL/map.cpp` - map basics
+- `STL/multi_map.cpp` - multi-map
+- `STL/unordered_map.cpp` - hash-based map
+- `STL/unorderedSet.cpp` - hash-based set
+- `STL/priority_queue.cpp` - max heap / priority queue
+- `STL/inbuilt_sorting.cpp` - `sort()` with ascending and descending examples
+
+### Run an STL file
+```bash
+cd STL
+g++ vector.cpp -o vector
+./vector
+```
+
+---
+
+## 3. Template
+
+The file `template.cpp` provides a general template for writing new C++ programs.
+
+Use it when creating new DSA problems or practice examples:
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
-// Problem: [Your Problem Name]
-// Topic: [DSA Topic]
-// Complexity: O(?) Time, O(?) Space
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    
-    // Your solution here
-    
+
+    // Write your code here
     return 0;
 }
 ```
 
-3. Compile: `g++ -o solution topic_name_problem.cpp`
-4. Run: `./solution`
+---
 
+## 4. How to Compile and Run
 
-## 🎯 Study Tips
+From the project root:
+```bash
+g++ file_name.cpp -o output_name
+./output_name
+```
 
-1. **Understand before memorizing** - Know the "why" behind algorithms
-2. **Practice consistently** - 2-3 problems per day
-3. **Analyze complexity** - Always calculate time & space for every solution
-4. **Review mistakes** - Keep a log of problems you got wrong
-5. **Code from scratch** - Don't just read solutions; implement them
+Example:
+```bash
+g++ STL/inbuilt_sorting.cpp -o inbuilt_sorting
+./inbuilt_sorting
+```
 
-## 📌 Resources
+On Windows, you may also run:
+```bash
+g++ STL\inbuilt_sorting.cpp -o inbuilt_sorting.exe
+inbuilt_sorting.exe
+```
 
-- **LeetCode**: https://leetcode.com
-- **GeeksforGeeks**: https://www.geeksforgeeks.org
-- **Codeforces**: https://codeforces.com
-- **HackerRank**: https://www.hackerrank.com
-- **InterviewBit**: https://www.interviewbit.com
+---
+
+## 5. Focus Areas
+
+This repository is mainly aimed at learning:
+- C++ syntax and basics
+- loop and array logic
+- pattern-based problem solving
+- STL containers and iterators
+- sorting and comparison functions
+- container operations such as insert, erase, push, pop, and traversal
+
+---
+
+## 6. Notes
+
+This is a beginner-to-intermediate practice workspace for understanding C++ and DSA fundamentals through small, focused programs.
+
+It is best used as:
+- a learning reference
+- a practice folder for coding patterns and STL examples
+- a place to experiment with C++ containers and algorithms
+
+---
+
+## 7. Suggested Next Steps
+
+- Practice each pattern file one by one
+- Learn one STL topic at a time
+- Modify examples to explore behavior
+- Build small programs using vectors, maps, sets, and priority queues
+- Move from STL practice to algorithmic problem solving
+
