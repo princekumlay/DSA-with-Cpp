@@ -16,10 +16,7 @@ class Solution{
             }
             return true;
         }
-        //constructor
-        bool solve(int n){
-            return primeNum(n);
-        }
+       
 };
 
 int main(){

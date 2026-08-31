@@ -25,10 +25,6 @@ class Solution{
 
             return divisors;
         }
-        //constructor
-        vector<int> solve(int n){
-            return divisorsOfNum(n);
-        }
 };
 
 int main(){

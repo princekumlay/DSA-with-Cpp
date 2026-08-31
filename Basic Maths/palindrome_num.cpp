@@ -23,9 +23,7 @@ class Solution{
 
             return (n == half_num || n == half_num % 10);
         }
-        long long solve(long long n){
-            return palindrome(n);
-        }
+        
 };
 
 int main(){

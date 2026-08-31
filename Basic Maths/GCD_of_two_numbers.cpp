@@ -15,10 +15,7 @@ class Solution{
 
             return a;
         }
-        //constructor
-        int solve(int a, int b){
-            return GCDOfNumbers(a, b);
-        }
+        
 };
 
 int main(){

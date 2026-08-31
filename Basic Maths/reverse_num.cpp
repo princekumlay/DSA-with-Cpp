@@ -12,10 +12,7 @@ class Solution{
             }
             return reverseNum;
         }
-        //constructor
-        int solve(int n){
-            return reverseNum(n);
-        }
+        
 };
 
 int main(){

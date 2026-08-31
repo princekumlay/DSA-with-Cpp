@@ -14,10 +14,7 @@ class Solution{
             }
             return count;
         }
-        //constructor
-        int solve(int n){
-            return count_digits(n);
-        }
+       
 };
 
 int main(){

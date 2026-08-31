@@ -14,10 +14,7 @@ class Solution{
             }
             return dup == sum;
         }
-        //constructor
-        int solve(int n){
-            return armStrong(n);
-        }
+        
 };
 
 int main(){
