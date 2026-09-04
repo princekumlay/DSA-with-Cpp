@@ -7,7 +7,7 @@ class Solution{
         vector<int> divisorsOfNum(int n){
             vector<int> divisors;
 
-            //all divisors less than sprt of n
+            //all divisors less than sqrt of n
             for(int i = 1; (long long)i * i <=n; i++){
                 if(n % i == 0){
                     divisors.push_back(i);

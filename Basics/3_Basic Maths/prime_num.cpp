@@ -8,7 +8,7 @@ class Solution{
 
             if(n <= 1) return false;
 
-            //all divisors less than sprt of n
+            //all divisors less than sqrt of n
             for(int i = 2; (long long)i * i <=n; i++){
                 if(n % i == 0){
                    return false;
