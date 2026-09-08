@@ -56,7 +56,7 @@ void multi_map(){
         cout<<"-> "<<"key exist and checked with find() function: "<<it->first<<" -> "<<it->second<<endl;
     }
 
-    cout<<"-> "<<"equal_range() function: it return all the keys in a array form of key we are looking for"<<endl;
+    cout<<"-> "<<"equal_range() function: it return all the keys in array form of the key we are looking for"<<endl;
     auto range = mp.equal_range(1);//range.second points just after the last matching element
     cout<<"   ";
     for(auto it = range.first; it != range.second; it++){
