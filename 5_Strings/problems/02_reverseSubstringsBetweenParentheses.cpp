@@ -1,4 +1,4 @@
-//here we have the reverse all the substrings between the parentheses
+//here we have to reverse all the substrings between the parentheses
 //Input: s = "(ed(et(oc))el)", Output: "leetcode"
 
 
