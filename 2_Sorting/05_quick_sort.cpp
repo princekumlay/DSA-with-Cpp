@@ -14,10 +14,14 @@ class QuickSort{
             while(i < j){
 
                 //get index of first element that is greater than pivot
-                while(nums[i] <= pivot && i <= high - 1) i++;
+                while(nums[i] >= pivot && i <= high - 1) i++; //decending order
+                
+                // while(nums[i] <= pivot && i <= high - 1) i++; //accending order
 
                 //get index of first element that is smaller than pivot
-                while(nums[j] > pivot && j >= low + 1) j--;
+                while(nums[j] < pivot && j >= low + 1) j--; //decending order
+
+                // while(nums[j] > pivot && j >= low + 1) j--; //accending order
 
                 //swap the elements to put ele greater than pivot to right and smaller to left
                 if(i < j) swap(nums[i], nums[j]);
